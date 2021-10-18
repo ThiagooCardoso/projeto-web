@@ -1,20 +1,41 @@
 {
-    "animais": [
-        {
-            "id": 1,
-            "idade": 22,
-            "Peso": 35,
-            "Raça": "Nelore",
-            "Sexo": "Masculino",
-            "DataEntrada":"18/10/2021"
-        },
-        {
-            "id": 2,
-            "idade": 22,
-            "Peso": 35,
-            "Raça": "Nelore",
-            "Sexo": "Masculino",
-            "DataEntrada":"18/10/2021"
-        }
-    ]
+  "Animais": [
+    {
+      "id": 1,
+      "idade": 22,
+      "Peso": 35,
+      "Raça": "Nelore",
+      "Sexo": "Masculino",
+      "data": "18/10/2021"
+    },
+    {
+      "id": 2,
+      "idade": 22,
+      "Peso": 35,
+      "Raça": "Angus",
+      "Sexo": "Fêmea",
+      "data": "18/10/2021"
+    },
+    {
+      "Idade": "30",
+      "Peso": "36",
+      "Raça": "zebu",
+      "Sexo": "Male",
+      "id": 3
+    },
+    {
+      "Idade": "30",
+      "Peso": "36",
+      "Raça": "zebu",
+      "Sexo": "Male",
+      "id": 4
+    },
+    {
+      "Idade": "30",
+      "Peso": "36",
+      "Raça": "zebu",
+      "Sexo": "Female",
+      "id": 5
+    }
+  ]
 }
