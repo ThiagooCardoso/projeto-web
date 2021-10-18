@@ -1,0 +1,20 @@
+{
+    "animais": [
+        {
+            "id": 1,
+            "idade": 22,
+            "Peso": 35,
+            "Raça": "Nelore",
+            "Sexo": "Masculino",
+            "DataEntrada":"18/10/2021"
+        },
+        {
+            "id": 2,
+            "idade": 22,
+            "Peso": 35,
+            "Raça": "Nelore",
+            "Sexo": "Masculino",
+            "DataEntrada":"18/10/2021"
+        }
+    ]
+}
