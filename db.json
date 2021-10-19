@@ -17,25 +17,51 @@
       "data": "18/10/2021"
     },
     {
-      "Idade": "30",
-      "Peso": "36",
-      "Raça": "zebu",
-      "Sexo": "Male",
+      "Idade": "23",
+      "Peso": "23",
+      "Raça": "nelore",
+      "Sexo": "Female",
       "id": 3
     },
     {
-      "Idade": "30",
-      "Peso": "36",
-      "Raça": "zebu",
-      "Sexo": "Male",
+      "Idade": "23",
+      "Peso": "23",
+      "Raça": "nelore",
+      "Sexo": "Female",
       "id": 4
     },
     {
-      "Idade": "30",
-      "Peso": "36",
-      "Raça": "zebu",
-      "Sexo": "Female",
+      "Idade": "16",
+      "Peso": "23",
+      "Raça": "nelore",
+      "Sexo": "Male",
       "id": 5
+    }
+  ],
+  "Dietas": [
+    {
+      "id": 1,
+      "Nome": "Dieta 1"
+    },
+    {
+      "NomeDieta": "dieta 2",
+      "QuantidadeInsumos": "3",
+      "NomeInsumo": [
+        "farelo de soja",
+        "pasto",
+        "sal mineral"
+      ],
+      "Quantidade": [
+        "550",
+        "1500",
+        "350"
+      ],
+      "tempo": [
+        "15",
+        "30",
+        "7"
+      ],
+      "id": 2
     }
   ]
 }
