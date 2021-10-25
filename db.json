@@ -62,6 +62,23 @@
         "7"
       ],
       "id": 2
+    },
+    {
+      "NomeDieta": "dieta simples",
+      "QuantidadeInsumos": "2",
+      "NomeInsumo": [
+        "Pasto",
+        "sal"
+      ],
+      "Quantidade": [
+        "1500",
+        "450"
+      ],
+      "tempo": [
+        "30",
+        "7"
+      ],
+      "id": 3
     }
   ]
 }
