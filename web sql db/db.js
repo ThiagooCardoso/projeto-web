@@ -8,7 +8,7 @@
   
            
 function OnSuccessCreate() {    
-    alert('Database Created Sucessfully');    
+    console.log('Database Created Sucessfully');    
 }  
 
 function Insert() { 

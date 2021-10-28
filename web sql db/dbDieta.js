@@ -7,7 +7,7 @@ var dbObj = openDatabase(Database_Name, Version, Text_Description, Database_Size
 
            
 function OnSuccessCreate() {    
-    alert('Database Created Sucessfully');    
+    console.log('Database Created Sucessfully');    
 } 
 
 function Insert(){
