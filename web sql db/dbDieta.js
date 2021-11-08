@@ -5,7 +5,7 @@ var Text_Description = 'Database das Dietas';
 var Database_Size = 2 * 1024 * 1024;    
 var db = openDatabase(Database_Name, Version, Text_Description, Database_Size, OnSuccessCreate());  
 
-export {db};
+
 
            
 function OnSuccessCreate() {    
@@ -49,17 +49,17 @@ function Insert(){
         db.transaction (function(tx){
             tx.executeSql('ALTER TABLE Cadastro_Dietas ADD NomeInsumo('+i+') VARCHAR(255) NOT NULL DEFAULT',
             [],
-            function (){console.log("Colunas nome insumo adicionada  com sucesso!")},
+            function (){console.log("Coluna nome insumo adicionada  com sucesso!")},
             function (){console.log ("Erro ao ADICIONAR COLUNAS tabela!!")}  
             );
             tx.executeSql('ALTER TABLE  Cadastro_Dietas ADD Quantidade('+i+') INTEGER NOT NULL DEFAULT',
             [],
-            function (){console.log("Colunas  quantidade adicionada  com sucesso!")},
+            function (){console.log("Coluna  quantidade adicionada  com sucesso!")},
             function (){console.log ("Erro ao ADICIONAR COLUNAS tabela!!")}  
             );
             tx.executeSql('ALTER TABLE Cadastro_Dietas ADD Duração('+i+') INTEGER NOT NULL DEFAULT',
             [],
-            function (){console.log("Colunas  Duração adicionada  com sucesso!")},
+            function (){console.log("Coluna  Duração adicionada  com sucesso!")},
             function (){console.log ("Erro ao ADICIONAR COLUNAS tabela!!")}  
             );
         }   
