@@ -40,7 +40,7 @@ function InsereDieta(){
      //inserir na tabela Dietas
      var dieta = document.getElementById("dietname").value; 
      var qtdinsumos = document.getElementById("Quantidadeinsumos").value;
- dbObj.transaction (function(tx){
+     dbObj.transaction (function(tx){
      tx.executeSql ('INSERT INTO Cadastro_Dietas(nomeDieta, QuantidadeInsumos) values(?,?)',
      [dieta,qtdinsumos],
      function(){alert("tabela preenchida!")},
